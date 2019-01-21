@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- boostrap css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/style3.css" />
+    <script type="text/javascript" src="dist/js/modernizr.custom.86080.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/sign.css">
+    <title>تراءد المستقبل</title>
+
+</head>
+
+<body style="background-image: url(dist/images/forms/traidform.jpg);height: 700px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" style="background-color: #000000a6!important;">
+        <div class="container navbarTop">
+            <div>
+                <button><a href="sign.html">تسجيل</a></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background: #e7d063;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav  align-items-center NavUl">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Events.html">الفعاليات</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="service.html">خدماتنا</a>
+                    </li>
+                    <a class="navbar-brand my-2" href="#" style="margin-left: 1rem">
+                        <img src="dist/img/1_logo.png" alt="">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">طلباتي</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="job.html">التوظيف</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="show.html">المرئيات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button>English</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container my-4">
+            <div class="row">
+                <div class="col-lg-5" style="text-align: center;margin-top: 6rem;background: #fffffff5;color: #000000;margin:2rem;margin-top:7rem;">
+                    <div >
+                        <p style="padding:1rem">الكثير منا منحه الله موهبة إبداعية.. بعضنا استطاع تنمية موهبته وأثقلها بالعلم والمعرفة .. وقليل منا من استطاع تتويج موهبته وابداعه بالعمل في بيئة تساعده علي تنمية هذه الموهبة وتعظيم هذا الابداع . لذلك .. فنحن في مؤسسة تراءد المستقبل نبحث عن المبدعين - كل في مجاله - لنضعهم في بيئة عمل احترافية تساعدهم علي تنمية الابداع وتطويره. فاذا كنت مبدعا محترفا في احدي المجالات الاتية: التصميم الجرافيكي. التصوير الفوتغرافي. صناعة المحتوي. التسويق . خدمة العملاء.</p>
+                    </div>
+                    <p style="padding:1rem;">‪‬فيسعدنا تواصلك معنا لحجز مكانك وسط كوكبة من المبدعين والمحترفين</p>
+                </div>
+                <div class="col-lg-6">
+                        <div class="form">
+                            <div class="a-group d-flex">
+                                <a href="#life_makers" class="a-sign-up w-50" onclick="life_makers()" style=" border-top-left-radius: 0;border-top: 2px solid #e7d063;border-top-right-radius: 12px;">صناع الحياه</a>
+                                <a href="#employment" class="a-sign-in w-50" onclick="employment()" style="border: 2px solid #e7d063;border-radius: 0;border-bottom: 0;background:#000000d9;">التوظيف</a>
+                                <a href="#volunteer" class="a-sign-up w-50" onclick="volunteer()"  style=" border-top: 2px solid #e7d063;">المتطوعين</a>
+                            </div>
+                            <div class="form-content">
+                                <div id="life_makers">
+                                    <div class="OrderFormContent">
+                                        <input type="text" placeholder="الاسم" style="margin-top:2rem">
+                                        <input type="email" placeholder="البريد الالكتروني">
+                                        <input type="tel" placeholder="رقم الجوالك">
+                                        <input type="tel" placeholder="الموضوع">
+                                        <textarea name="" id=""  rows="5" placeholder="الرساله" style="padding:10px"></textarea>
+                                        <div class="d-flex" style="width:94%">
+                                            <input type="file" id="UploadlogoFile" name="UploadlogoFile" size="60" 
+                                                style="    margin-left: 0.2rem;">
+                                            <label for="fileupload" class="align-self-center" style="width:30%;text-align: right;">رفع
+                                                اعمالك</label>
+                                        </div>
+                                        <div class="d-flex" style="width:94%">
+                                            <input type="file" id="UploadlogoFile" name="UploadlogoFile" size="60" class="text-input"
+                                                style="margin-left: 0.2rem;">
+                                            <label for="fileupload" class="align-self-center" style="width:30%">حدد السيرة
+                                                الذاتية لتحميل</label>
+                                        </div>
+                                        <button class="btn-sign-in" type="submit" value="submit">إرسال</button>
+                                    </div>
+                                </div>
+                                <div id="employment">
+                                        <div class="OrderFormContent" >
+                                                <input type="text" placeholder="الاسم">
+                                                <input type="email" placeholder="البريد الالكتروني">
+                                                <input type="tel" placeholder="رقم الجوالك">
+                                                <input type="tel" placeholder="الموضوع">
+                                                <textarea name="" id=""  rows="5" placeholder="الرساله" style="padding:10px"></textarea>
+                                                <div class="d-flex w-100">
+                                                    <input type="file" id="UploadlogoFile" name="UploadlogoFile" size="60" class="text-input"
+                                                        style="">
+                                                    <label for="fileupload" class="align-self-center" style="width:30%">حدد السيرة
+                                                        الذاتية لتحميل</label>
+                                                </div>
+                                                <button class="btn-sign-in" type="submit" value="submit">إرسال</button>
+                                            </div>
+                                </div>
+                                <div id="volunteer">
+                                        <div class="OrderFormContent" >
+                                                <input type="text" placeholder="الاسم">
+                                                <input type="email" placeholder="البريد الالكتروني">
+                                                <input type="tel" placeholder="رقم الجوالك">
+                                                <input type="tel" placeholder="الموضوع">
+                                                <textarea name="" id="" class="w-100" rows="5" placeholder="الرساله" style="padding:10px"></textarea>
+                                                <div class="d-flex w-100">
+                                                    <input type="file" id="UploadlogoFile" name="UploadlogoFile" size="60" class="text-input"
+                                                        style="">
+                                                    <label for="fileupload" class="align-self-center" style="width:30%">حدد السيرة
+                                                        الذاتية لتحميل</label>
+                                                </div>
+                                                <button class="btn-sign-in" type="submit" value="submit">إرسال</button>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>   
+        </div>
+    
+
+    <!-- bootstrap -->
+    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script>
+        $('#life_makers').show();
+        $("#life_makers .OrderFormContent").show();
+        $("#employment .OrderFormContent").hide();
+        $("#volunteer .OrderFormContent").hide();
+        function life_makers() {
+            $("#employment .OrderFormContent").hide();
+            $("#volunteer .OrderFormContent").hide();
+            $("#life_makers .OrderFormContent").show();
+        }
+
+        function employment() {
+            $("#employment .OrderFormContent").show();
+            $("#volunteer .OrderFormContent").hide();
+            $("#life_makers .OrderFormContent").hide();
+        }
+
+        function volunteer() {
+            $("#volunteer .OrderFormContent").show();
+            $("#employment .OrderFormContent").hide()
+            $("#life_makers .OrderFormContent").hide();
+        }
+    </script>
+</body>
+
+</html>

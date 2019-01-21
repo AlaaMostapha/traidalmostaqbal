@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootsnipp -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- boostrap css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/style3.css" />
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/service.css">
+    
+    <title>تراءد المستقبل</title>
+
+</head>
+
+<body style="background: url('dist/images/backG.jpg')">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" style="background-color: #000000a6!important;">
+        <div class="container navbarTop">
+            <div>
+                <button><a href="sign.html">تسجيل</a></button>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background: #e7d063;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav  align-items-center NavUl">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Events.html">الفعاليات</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="service.html">خدماتنا</a>
+                    </li>
+                    <a class="navbar-brand my-2" href="#" style="margin-left: 1rem;margin-bottom:7rem!important">
+                        <img src="dist/img/1_logo.png" alt="">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">طلباتي</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="job.html">التوظيف</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="show.html">المرئيات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button>English</button>
+            </div>
+        </div>
+    </nav>
+    <div class="overylay my-5" style="padding-top: 8rem;padding-bottom: 8rem">
+    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                            <!-- End Carousel Inner -->
+                            <div class="controls">
+                                <ul class="" style="padding:0">
+                                    <li data-target="#custom_carousel" data-slide-to="0" class="active" style="padding:1.5rem"><a href="#">تنظيم المهرجانات</a></li>
+                                    <li data-target="#custom_carousel" data-slide-to="1" style="padding:1.5rem"><a href="#">تنظيم الفعاليات</a></li>
+                                    <li data-target="#custom_carousel" data-slide-to="2" style="padding:1.5rem"><a href="#">تنظيم الدورات وورش العمل</a></li>
+                                    <li data-target="#custom_carousel" data-slide-to="3" style="padding:1.5rem"><a href="#">الحفلات العامه والخاصه</a></li>
+                                </ul>
+    
+                            </div>
+                </div>
+                <div class="col-lg-9">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    
+                                    <div class="col-lg-8" style="text-align:right">
+                                        <h2 style="font-size: 2.5rem;" class="mb-3">تنظيم المهرجانات</h2>
+                                        <p>عادة ما تهتم الشركات بالانضمام الي الفعاليات والمهرجانات المختلفة من أجل
+                                            تعزيز تواجدها في الأسواق المحيطة بها ونحن في تراءد المستقبل نصنع لكم
+                                            الفرص الملائمة لهذا التواجد من خلال تنظيم المهرجانات التي تناسب
+                                            توجهاتكم المشتركة مع جمهوركم المستهدف</p>
+                                        <p style="font-weight: bold"> حيث نقوم بالتخطيط المميز للمهرجان بكل تفاصيله المختلفة : <button onclick="Mahrganat()" class="clickBtn" id="MahrganatBtn">+</button></p>
+                                        
+                                        <ul style=" list-style-type: square;padding:2rem;display: none" id="MahrganatUl">
+                                            <li>اختيار مكان انعقاد المهرجان</li>
+                                            <li>تخطيط جدول الاحداث</li>
+                                            <li>اختيار الجمهور المستهدف</li>
+                                            <li>خطة التسويق الخاصة بالمهرجان</li>
+                                            <li>اختيار ومخاطبة الرعاة والشركاء</li>
+                                            <li>تخطيط حملات الدعاية والتغطية الإعلامية</li>
+                                        </ul>
+                                        <p>((نحن نصنع الانسجام والتواصل بين رعاة المهرجان وبين الجمهور المستهدف ))</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                            <img src="dist/images/تنظيم المهرجانات.jpg" alt="" style="height: 210px;
+                                            width: 205px;">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-8" style="text-align:right">
+                                        <h2 style="font-size: 2.5rem;" class="mb-3">تنظيم الفعاليات</h2>
+                                        <p>يمكنكم الاعتماد التام علينا في تخطيط و تنظيم الفعاليات الخاصة بكم بكل تفاصيلها، بدءا من اختيار فكرة وموضوع الفعالية المناسبة لكم ، حتي حفل الختام الخاص بالفعالية:</p>
+                                        <p style="font-weight: bold">مرورا بكل تفاصيلها الأخرى :  <button onclick="fa3lyat()" id="fa3lyatBtn" class="clickBtn">+</button></p>
+                                        <ul style=" list-style-type: square;padding:2rem;display: none" id="fa3lyatUl">
+                                            <li>اختيار القاعة المناسبة لانعقاد الفعالية</li>
+                                            <li>وضع خطة العمل الخاصة بالفعالية.</li>
+                                            <li>تخطيط جدول الأحداث.</li>
+                                            <li>دعوة ومخاطبة الرعاة.</li>
+                                            <li>التنسيق مع المشاركين والمتحدثين.</li>
+                                            <li>توفير خدمات الترجمة الفورية.</li>
+                                            <li>استقبال المشاركين والجمهور.</li>
+                                            <li>خدمات الضيوف وكبار الشخصيات.</li>
+                                            <li>وضع وتنفيذ خطة التسويق للفعالية.</li>
+                                            <li>وضع خطة الترويج والدعاية للفعالية.</li>
+                                            <li>عمل التغطية الإعلامية المناسبة للفعالية.</li>
+                                            <li>عمل حفل الافتتاح والختام للفعالية.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                            <img src="dist/images/تنظيم الفعاليات.jpg" alt="" style="height: 210px;
+                                            width: 205px;">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-8" style="text-align:right">
+                                        <h2 style="font-size: 2.5rem;" class="mb-3">تنظيم الدورات وورش العمل</h2>
+                                        <p>اذا رغبت في تنظيم دورة تدريبية متخصصة أو ورشة عمل  أو الالتحاق بإحدى الدورات التدريبة الخاصة بنا، فما عليك الا الاعتماد علينا ؛ فنحن لدينا فريق عمل مميز ومتخصص في مجال التدريب يستطيع وبكل حرفية أن يهتم بكافة تفاصيل العملية التدريبية</p>
+                                        <p class="my-2">
+                                                <b>بدءا من قياس الاحتياجات التدريبة بدقة متناهية ، ومن ثم يمكنه وضع خطة تدريبية متقنة لتلبية الاحتياجات التدريبية ، وحتي الوصول بنجاح الي النتائج المرجوة للعملية التدريبية.</b>
+                                        </p>
+                                        <p>((الاستثمار في  تدريب الموظفين هو أفضل وسيلة لرفع كفاءة الموارد البشرية للمؤسسات))</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                            <img src="dist/images/الدورات وورش العمل.jpg" alt="" style="height: 210px;
+                                            width: 205px;">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-8" style="text-align:right">
+                                        <h2 style="font-size: 2.5rem;" class="mb-3">الحفلات العامه والخاصه</h2>
+                                        <p>الحفلات والمناسبات العامة والخاصة هي لحظات رائعة يجب الاهتمام بكل تفاصيلها حتى تظهر بشكل مميز. نحن في تراءد المستقبل نتحمل عنك عناء الاهتمام بالتفاصيل..حتى تتفرغ أنت للاستمتاع مع ضيوفك نخطط لك يومك المميز بدءا من اختيار المكان، تخطيط فقرات الحفل، ارسال الدعوات، استقبال الضيوف، خدمات الضيافة، .....  وغيرها الكثير.. مما يجعل احتفالك هو الأكثر روعة وتميز.
+                                        </p>
+                                        <p style="font-weight: bold">يمكننا في تراءد المستقبل تنظيم وإدارة الحفلات العامة مثل: <button onclick="party()" id="partyBtn" class="clickBtn">+</button></p>
+                                        <ul style=" list-style-type: square;padding:2rem;display: none" id="partyUl">
+                                            <li>حفلات الافتتاح.</li>
+                                            <li>حفلات الترقية.</li>
+                                        </ul>
+                                        <p style="font-weight: bold">والحفلات الخاصة مثل: <button onclick="party2()" id="party2Btn" class="clickBtn">+</button></p>
+                                        <ul style=" list-style-type: square;padding:2rem;display: none" id="party2Ul">
+                                            <li>حفلات الزفاف.</li>
+                                            <li>حفلات التخرج.</li>
+                                        </ul>
+                                        <p>((دعنا نهتم بتفاصيل يومك المميز.. ولتتفرغ انت الي ضيوفك))</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                            <img src="dist/images/الحفلات العامة و الخاصة.jpg" alt="" style="height: 210px;
+                                            width: 205px;">
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                    </div>
+
+                </div>
+                
+                <!-- End Carousel -->
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+  <!-- bootstrap -->
+  <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+  
+  <!-- bootsnipp -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+  <!-- custom js -->
+  <script type="text/javascript">
+    $(document).ready(function (ev) {
+        $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+            $('#custom_carousel .controls li.active').removeClass('active');
+            $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass(
+                'active');
+        })
+    });
+</script>
+<script>
+    function Mahrganat(){
+        console.log('hi111')
+        if($('#MahrganatBtn').html()=='+'){
+            $('#MahrganatBtn').html('-');
+            $('#MahrganatUl').show();
+            console.log('hi2222')
+        }else{
+            $('#MahrganatBtn').html('+');
+            $('#MahrganatUl').hide();
+            console.log('hi')
+        }
+        
+    }
+    function fa3lyat(){
+        console.log('hi111')
+        if($('#fa3lyatBtn').html()=='+'){
+            $('#fa3lyatBtn').html('-');
+            $('#fa3lyatUl').show();
+            console.log('hi2222')
+        }else{
+            $('#fa3lyatBtn').html('+');
+            $('#fa3lyatUl').hide();
+            console.log('hi')
+        }
+        
+    }
+    function party(){
+        console.log('hi111')
+        if($('#partyBtn').html()=='+'){
+            $('#partyBtn').html('-');
+            $('#partyUl').show();
+            console.log('hi2222')
+        }else{
+            $('#partyBtn').html('+');
+            $('#partyUl').hide();
+            console.log('hi')
+        }
+        
+    }
+    function party2(){
+        console.log('hi111')
+        if($('#party2Btn').html()=='+'){
+            $('#party2Btn').html('-');
+            $('#party2Ul').show();
+            console.log('hi2222')
+        }else{
+            $('#party2Btn').html('+');
+            $('#party2Ul').hide();
+            console.log('hi')
+        }
+        
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- boostrap css -->
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="dist/css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="dist/css/style3.css" />
+  <script type="text/javascript" src="dist/js/modernizr.custom.86080.js"></script>
+  <!-- custom css -->
+  <link rel="stylesheet" href="dist/css/style.css">
+  <title>تراءد المستقبل</title>
+
+</head>
+
+<body style="background: url('dist/images/backG.jpg');color: white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" style="background: #000000b5!important;">
+    <div class="container navbarTop">
+            <div>
+                    <button ><a href="sign.html">تسجيل</a></button>
+                    
+                  </div>
+      <button style="background: #e7d063;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav  align-items-center NavUl">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Events.html">الفعاليات</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="service.html">خدماتنا</a>
+          </li>
+          <a class="navbar-brand my-2" href="#" style="margin-left: 1rem">
+            <img src="dist/img/1_logo.png" alt="">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">طلباتي</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link" href="job.html">التوظيف</a>
+      </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="show.html">المرئيات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">اتصل بنا</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+          <button >English</button>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container my-3 text-right" style="color: white;">
+      <div class="row">
+          <div class="col-lg-4">
+            <img src="dist/images/moutain.jpg" alt="">
+          </div>
+          <div class="col-lg-8" style="background:#000000b5;">
+            <h3 class="m-2" style="font-size:1.7rem;color:#dbb248">مهرجان جبل الأشباح</h3>
+            <div class="my-3">
+                    <p class="m-1">تاريخ : 2019-3-28 </p>
+                    <p class="m-1"> الوقت : 04:06:31pm</p>
+            </div>
+            <div class="countdown d-flex justify-content-start my-2" id="countdown1">
+                    <div style="border: 2px solid #dbb248; padding: 1.4rem; text-align: center;">
+                            <span class="timeel days d-block">00</span>
+                            <span class="timeel timeRefDays">الأيام</span>
+                    </div>
+                    <div class="mr-2" style="border: 2px solid #dbb248; padding: 1.4rem; text-align: center;">
+                            <span class="timeel hours d-block">00</span>
+                            <span class="timeel timeRefHours">الساعات</span>
+                    </div>
+                    <div class="mr-2" style="border: 2px solid #dbb248; padding: 1.4rem; text-align: center;">
+                            <span class="timeel minutes d-block">00</span>
+                            <span class="timeel timeRefMinutes">الدقائق</span>
+                    </div>
+                    <div class="mr-2" style="border: 2px solid #dbb248; padding: 1.4rem; text-align: center;">
+                            <span class="timeel seconds d-block">00</span>
+                            <span class="timeel timeRefSeconds">الثواني</span>
+                    </div>
+              </div>
+              <div >
+                  <u><a href="more.html" style="color:white">أقرء أكثر...</a></u>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  
+      
+
+  <!-- bootstrap -->
+  <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+<script>
+    window.onload = function() {
+  // Month Day, Year Hour:Minute:Second, id-of-element-container
+  countDownToTime("Mar 28, 2019 04:06:31", 'countdown1'); // ****** Change this line!
+}
+function countDownToTime(countTo, id) {
+  countTo = new Date(countTo).getTime();
+  var now = new Date(),
+      countTo = new Date(countTo),
+      timeDifference = (countTo - now);
+      
+  var secondsInADay = 60 * 60 * 1000 * 24,
+      secondsInAHour = 60 * 60 * 1000;
+
+  days = Math.floor(timeDifference / (secondsInADay) * 1);
+  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
+  mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
+  secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
+
+  var idEl = document.getElementById(id);
+  if(days==0&&secs==0){
+    clearTimeout(countDownToTime);
+  }else{
+    idEl.getElementsByClassName('days')[0].innerHTML = days;
+  idEl.getElementsByClassName('hours')[0].innerHTML = hours;
+  idEl.getElementsByClassName('minutes')[0].innerHTML = mins;
+  idEl.getElementsByClassName('seconds')[0].innerHTML = secs;
+  }
+  countDownToTime.interval = setTimeout(function(){ countDownToTime(countTo, id); },1000);
+}
+</script>
+</body>
+
+</html>
