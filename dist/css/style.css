@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Cairo-Regular";
+  src: url("Cairo-Regular.ttf"); }
+
+@font-face {
+  font-family: "Cairo-Bold";
+  src: url("Cairo-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Cairo-SemiBold";
+  src: url("Cairo-SemiBold.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("OpenSans-Regular.ttf"); }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("OpenSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("OpenSans-SemiBold.ttf"); }
+
+body {
+  font-family: Cairo-Regular; }
+
+.NavUl li a {
+  color: #dbb248 !important; }
+
+.navbarTop button {
+  background: transparent;
+  border: 2px solid #dbb248;
+  border-radius: 2px;
+  padding: 2px 16px;
+  cursor: pointer;
+  color: #dbb248;
+  box-shadow: 0px 7px 7px -6px #dbb248; }
+  .navbarTop button a {
+    color: #dbb248; }
+  .navbarTop button:hover {
+    background: #dbb248;
+    color: white; }
+    .navbarTop button:hover a {
+      color: white;
+      text-decoration: none; }
+
+::placeholder {
+  color: white; }
+
+.a-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center; }
+
+.a-group a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 24px; }
+
+.a-sign-in {
+  color: #fff;
+  border: 2px solid #dbb248;
+  border-bottom: 0;
+  border-top-right-radius: 12px; }
+
+.a-sign-in:hover {
+  color: black; }
+
+.a-sign-up {
+  background-color: #e7d063;
+  color: #121515;
+  border-top-left-radius: 12px; }
+
+.a-sign-up:hover {
+  color: white; }
+
+.form-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  position: relative; }
+
+.form-content input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  background: #00000087;
+  color: white; }
+
+.form-content input:focus {
+  box-shadow: inset 0px 0px 5px #121515; }
+
+.form-content textarea {
+  color: gray;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  background: #00000087; }
+
+#sign-in {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  padding: 0 10px;
+  z-index: 1;
+  border: 2px solid #dbb248;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: #00000087; }
+
+.frg-password {
+  text-decoration: none;
+  color: #ececec; }
+
+.frg-password:hover {
+  color: #121515; }
+
+.btn-sign-in, .btn-sign-up {
+  outline: none;
+  border: 3px solid #fff;
+  padding: 5px 25px;
+  margin-bottom: 12px;
+  background: none;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer; }
+
+.btn-sign-in:hover {
+  background: #fff;
+  color: black; }
+
+#sign-up {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+  background: #00000087;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0 10px;
+  opacity: 0;
+  border: 2px solid #e7d063;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: #00000087; }
+
+#sign-up:target {
+  opacity: 1;
+  z-index: 2; }
+
+.btn-sign-up:hover {
+  background: #121515;
+  color: #4AD9D9; }
+
+@media screen and (max-width: 425px) {
+  .form {
+    width: 100%; } }
+
+div.bottom-transitional p {
+  color: white; }
+
+div.bottom-transitional:after {
+  content: "";
+  background: #dbb248;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+  transition: width 0.3s ease-out; }
+
+div.bottom-transitional:hover:after {
+  content: "";
+  background: #dbb248;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  transition: width 0.5s ease-in; }
+
+div.bottom-transitional:hover {
+  box-shadow: 0 7px 7px -7px #deddddc9;
+  transform: scale(1.1);
+  z-index: 1;
+  background: white; }
+  div.bottom-transitional:hover p {
+    color: black; }
+
+.OrderFormHeading {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+  font-size: 24px;
+  color: #fff;
+  border: 2px solid #dbb248;
+  border-bottom: 0;
+  border-top-right-radius: 12px; }
+
+.OrderFormContent {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  padding: 0 10px;
+  z-index: 1;
+  border: 2px solid #dbb248;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: #0000009e; }
+  .OrderFormContent select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    color: gray;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    background: #00000087; }
+  .OrderFormContent option:not(:first-of-type) {
+    color: black; }
